@@ -134,7 +134,7 @@ while True:
             #we are processing alternate frames
 
 
-            #show it in the video
+            #show a rectangle around the face in the live video
             for (top, right, bottom, left), name in zip(face_locations, face_names):
                 #we had reduced it to 1/4th size, so scale it back up
                 top *= 4
